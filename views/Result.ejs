@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div>
+            <% for(var i = 0;i < Toy.length;i++){%>
+                <div>
+                    <p>Name:<%=Toy[i].name%></p>
+                    <p>Price:<%=Toy[i].price%></p>
+                    <p>Image: <img src="Picture/<%=Toy[i].image%>" alt=""></p>
+                </div>
+            <%}%>    
+        </div>
+    </body>
+</html>
