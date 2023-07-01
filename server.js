@@ -44,7 +44,7 @@ MongoClient.connect(connectionString, { useUnifiedTopology: true })
                     
                     // results -> index.ejs -> client -> browser 
                     // The file 'index.ejs' must be placed inside a 'views' folder BY DEFAULT
-                    res.render('index.ejs', { quotes: results })
+                    res.render('USER', { quotes: results })
                 })
                 .catch(/* ... */)
         })
